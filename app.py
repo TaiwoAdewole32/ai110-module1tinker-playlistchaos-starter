@@ -299,7 +299,7 @@ def lucky_section(playlists):
 
     mode = st.selectbox(
         "Pick from",
-        options=["any", "hype", "chill"],
+        options=["any", "hype", "mixed", "chill"],
         index=0,
     )
 
